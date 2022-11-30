@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	position: relative;
+}
+#naptar{
+	width: 70%;
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 50px auto;
+	padding: 20px;
+	padding-top: 50px;
+	font-family: "Raleway", sans-serif;
+}
+.fejlec{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+#hozzaad{
+	border: 1px solid #00b386;
+	outline: 0;
+	padding: 5px 13px;
+	background-color: #00b386;
+	color: #ffffff;
+	border-radius: 50%;
+	font-size: 25px;
+	cursor: pointer;
+	font-weight: bold;
+}
+#hozzaad:hover{
+	background-color: #ffffff;
+	color: #00b386;
+}
+#balNyil{
+	border: solid #999999;
+	border-width: 3px 0 0 3px;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(-45deg);
+	cursor: pointer;
+}
+#jobbNyil{
+	border: solid #999999;
+	border-width: 3px 3px 0 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+.fejlec>div{
+	width: 30%;
+	color: grey;
+	font-size: 24px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 20px;
+}
+#honapNev{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#honapNev span{
+	width: 8.3%;
+	color: grey;
+	cursor: pointer;
+	text-align: center;
+}
+#naptar hr{
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+#napNev{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+#napNev span{
+	width: 14.2%;
+	font-size: 24px;
+	font-weight: 800;
+	color: grey;
+	text-align: center;
+}
+#napok{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#napok span{
+	width: 14.2%;
+	font-size: 22px;
+	text-align: center;
+	padding: 10px;
+}
+.jelenleg_nap{
+	color: white!important;
+	background-color: #00b386!important;
+}
+.jelenleg_honap{
+	color: #00b386!important;
+	font-weight: bold!important;
+}
+#esemeny{
+	display: none;
+	background-color: #ffffff;
+	z-index: 10;
+	width: 30%;
+	position: absolute;
+	top: 20px;
+	left: 35%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#esemenyFejlec{
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #00b386;
+}
+#esemenyFejlec h2{
+	color: #ffffff;
+	font-weight: normal;
+}
+#esemenyFejlec button{
+	border: none;
+	outline: 0;
+	background-color: #00b386;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+#esemenyForm{
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#esemenyForm label{
+	width: 100%;
+}
+#esemenyForm input{
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+#esemenyForm textarea{
+	width: 100%;
+	height: 75px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	resize: none;
+}
+#esemenyForm button{
+	border: none;
+	outline: 0;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	background-color: #00b386;
+	cursor: pointer;
+	padding: 10px;
+}
+.van_esemeny{
+	color: red!important;
+	cursor: pointer!important;
+}
+
+
+
+
+
+

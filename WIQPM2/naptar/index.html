@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calendar</title>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+	<body>
+		<div id="naptar">
+			<div class="fejlec">
+				<button id="hozzaad">+</button>
+				<div>
+					<i id="balNyil"></i>
+					<div id="ev">2022</div>
+					<i id="jobbNyil"></i>
+				</div>
+			</div>
+			<div id="honapNev">
+				<span class="honap">Jan</span>
+				<span class="honap">Feb</span>
+				<span class="honap">Mar</span>
+				<span class="honap">Apr</span>
+				<span class="honap">May</span>
+				<span class="honap">Jun</span>
+				<span class="honap">Jul</span>
+				<span class="honap">Aug</span>
+				<span class="honap">Sep</span>
+				<span class="honap">Oct</span>
+				<span class="honap">Nov</span>
+				<span class="honap">Dec</span>
+			</div>
+			<hr>
+			<div id="napNev">
+				<span>Mo</span>
+				<span>Tu</span>
+				<span>We</span>
+				<span>Th</span>
+				<span>Fr</span>
+				<span>Sa</span>
+				<span>Su</span>
+			</div>
+			<div id="napok">
+				<span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+				<span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+				<span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+				<span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+				<span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+				<span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+			</div>
+		</div>
+		
+		<div id="esemeny">
+			<div id="esemenyFejlec">
+				<h2>Event</h2>
+				<button id="kilep">x</button>
+			</div>
+			<div id="esemenyForm">
+
+					<label for="datum">Event date</label>
+					<input type="date" name="datum" id="datum" required></input>
+					<label for="esemenyLeiras">Short description</label>
+					<textarea type="text" name="esemenyLeiras" id="esemenyLeiras" placeholder="Short description of the event" required></textarea>
+					<label for="color">Color in calendar:</label>
+					<input type="color" id="color" name="color" value="#ffff00"><br><br>
+					<button type="submit" name="mentes" id="mentes">Save</button>
+			</div>
+		</div>
+		<script src = "demo.js"></script>
+	</body>
+</html>

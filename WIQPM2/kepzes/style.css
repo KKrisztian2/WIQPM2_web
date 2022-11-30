@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 50px auto;
+	width: fit-content;
+	font-family: calibri;
+}
+body>h1{
+	margin-bottom: 10px;
+}
+body>p{
+	margin-bottom: 30px;
+}
+table, td, th:not(:last-child){
+	border: 1px solid #d6d6c2;
+	border-collapse: collapse;
+}
+tr th{
+	padding: 5px;
+	background-color: #33cc33;
+}
+tr th>input{
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #33cc33;
+	color: #ffffff;
+	border: 0;
+	outline: 0;
+	margin: 3px;
+}
+tr th>input:focus{
+	border: 1px solid #ffffff;
+	background-color: #85e085;
+}
+tr th>select{
+	padding: 4px;
+	background-color: #33cc33;
+	color: #ffffff;
+	border: 0;
+	outline: 0;
+	margin: 3px;
+	-webkit-appearance: none;
+	height: 30px;
+}
+tr td>select{
+	padding: 4px;
+	background-color: #33cc33;
+	border: 0;
+	margin: 3px;
+}
+input::placeholder{
+	color: #ffffff;
+}
+
+tr td>input{
+	padding: 5px 10px;
+	margin: 3px;
+}
+#uj_sor{
+	background-color: #80bfff;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	margin-top: 10px;
+	margin-left: 50%;
+	outline: 0;
+}
+
+
+
+
