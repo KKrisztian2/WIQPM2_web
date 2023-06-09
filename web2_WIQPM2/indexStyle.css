@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	background-color: #f1f1f1;
+}
+body{
+	width: 70%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	position: relative;
+	height: fit-content;
+}
+kijelentkezes{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+h2{
+	padding-top: 35px;
+	padding-bottom: 15px;
+}
+h3{
+	padding: 15px 0;
+}
+table{
+	width: 100%;
+	margin-bottom: 25px;
+}
+table, td, th{
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+td{
+	padding: 5px;
+}
+th{
+	background-color: #009900;
+	padding-left: 10px;
+	color: white;
+	text-align: left;
+	font-weight: normal;
+}
+tr:nth-of-type(2n){
+	background-color: #ffffff;
+}
+tr:nth-of-type(2n+1){
+	background-color: #f1f1f1;
+}
+.torol{
+	text-align: center;
+	background-color: #ff0000;
+	color: #ffffff;
+	outline: 0;
+	border: 0;
+	padding: 5px;
+	margin: 2px;
+	text-decoration: none;
+}
+.torol:hover{
+	opacity: 0.5;
+	cursor: pointer;
+	color: black;
+}
+#hozzad{
+	background-color: #80bfff;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	margin-top: 10px;
+	margin-left: 50%;
+	outline: 0;
+	text-decoration: none;
+}
+#hozzad:hover{
+	opacity: 0.5;
+	cursor: pointer;
+	color: black;
+}
+.adatok{
+	width: 100%;
+}
+.veglegesit{
+	background-color: #66ff66;
+	text-align: center;
+	color: #ffffff;
+	outline: 0;
+	border: 0;
+	padding: 3px 16px;
+	margin: 2px;
+	text-decoration: none;
+}
+.veglegesit:hover{
+	opacity: 0.5;
+	cursor: pointer;
+	color: black;
+}
+#megnyitas{
+	margin-top: 5px;
+	padding: 5px;
+	background-color: #66ff66;
+	border: 1px solid grey;
+}
+#megnyitas:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+label{
+	margin-right: 5px;
+}
+#tablaLetrehoz{
+	position: absolute;
+	top: 25px;
+	right: 125px;
+}
+#kijelentkezes{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+}
+#tablaTorol{
+	position: absolute;
+	top: 50px;
+	right: 25px;
+	text-align: center;
+	background-color: #ff0000;
+	color: #ffffff;
+	outline: 0;
+	border: 0;
+	padding: 5px;
+	margin: 2px;
+	text-decoration: none;
+}
+#tablaTorol:hover{
+	opacity: 0.5;
+	cursor: pointer;
+	color: black;
+}
+#sikertelen{
+	background-color: grey;
+	padding: 10px;
+	margin-bottom: 15px;
+	width: 400px;
+	position: relative;
+}
+#x{
+	background-color: grey;
+	color: red;
+	position: absolute;
+	top: 2px;
+	right: 4px;
+	padding: 1px 3px;
+	border: none;
+}
+#x:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
