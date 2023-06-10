@@ -1,0 +1,44 @@
+https://www.apachefriends.org/hu/index.html - xampp letöltése, apache és mysql kell futtatni.
+A fájlokat a xampp mappán belül a htdocs mappában kell elhelyezni, elérése http://localhost/web2_WIQPM2/login.php
+Ha nem sikerül betölteni, akkor xampp/apache/conf/httpd.conf fájlban 227 sorban (ServerName localhost:8080) a 8080 portra kell váltani, így az elérés http://localhost:8080/web2_WIQPM2/login.php
+
+Adatbázist web2_wiqpm2 néven és egy felhasználók táblát felhasznalok néven létre kell hozni(db elérése http://localhost:8080/phpmyadmin), néhány elem beszúrása más táblákba:
+
+CREATE DATABASE web2_wiqpm2;
+CREATE TABLE felhasznalok(
+id INT PRIMARY KEY,
+username VARCHAR(255),
+password VARCHAR(255),
+vezeteknev VARCHAR(255),
+keresztnev VARCHAR(255),
+email VARCHAR(255)
+);
+
+CREATE TABLE telefonok(
+id INT PRIMARY KEY,
+marka VARCHAR(255),
+tipus VARCHAR(255),
+ram INT,
+memoria INT,
+processzor VARCHAR(255),
+felbontas VARCHAR(255),
+ar INT
+);
+
+CREATE TABLE mosogepek(
+id INT PRIMARY KEY,
+marka VARCHAR(255),
+tipus VARCHAR(255),
+raktaron INT,
+ar INT
+);
+
+INSERT INTO felhasznalok VALUES (1, tibike, 12345678, Nagy, Tibor, tibike2@gmail.com),
+(2, wiqpm2, qwertzui, Kovács, Krisztián, kkr@gmail.com);
+
+INSERT INTO telefonok VALUES (835460, Samsung, Galaxy A53, 6, 128, Samsung Exynos 1280, 2400 x 1080, 139999),
+(8352473, Samsung, Galaxy S23, 8, 256, Qualcomm Snapdragon 8 Gen 2, 2340 x 1080, 264990),
+(832308, Apple, iPhone 14, 6, 512, Apple A15 Bionic, 2532 x 1170, 400000);
+
+INSERT INTO mosogepek VALUES (163468, Electrolux, EW6TN5061FH, 0, 148500),
+(166267, LG, F2DV5S8S2E, 4, 209990);
