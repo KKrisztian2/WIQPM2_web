@@ -33,12 +33,12 @@ raktaron INT,
 ar INT
 );
 
-INSERT INTO felhasznalok VALUES (1, tibike, 12345678, Nagy, Tibor, tibike2@gmail.com),
-(2, wiqpm2, qwertzui, Kovács, Krisztián, kkr@gmail.com);
+INSERT INTO felhasznalok VALUES (1, "tibike", "12345678", "Nagy", "Tibor", "tibike2@gmail.com"),
+(2, "wiqpm2", "qwertzui", "Kovács", "Krisztián", "kkr@gmail.com");
 
-INSERT INTO telefonok VALUES (835460, Samsung, Galaxy A53, 6, 128, Samsung Exynos 1280, 2400 x 1080, 139999),
-(8352473, Samsung, Galaxy S23, 8, 256, Qualcomm Snapdragon 8 Gen 2, 2340 x 1080, 264990),
-(832308, Apple, iPhone 14, 6, 512, Apple A15 Bionic, 2532 x 1170, 400000);
+INSERT INTO telefonok VALUES (835460, "Samsung", "Galaxy A53", 6, 128, "Samsung Exynos 1280", "2400 x 1080", 139999),
+(8352473, "Samsung", "Galaxy S23", 8, 256, "Qualcomm Snapdragon 8 Gen 2", "2340 x 1080", 264990),
+(832308, "Apple", "iPhone 14", 6, 512, "Apple A15 Bionic", "2532 x 1170", 400000);
 
-INSERT INTO mosogepek VALUES (163468, Electrolux, EW6TN5061FH, 0, 148500),
-(166267, LG, F2DV5S8S2E, 4, 209990);
+INSERT INTO mosogepek VALUES (163468, "Electrolux", "EW6TN5061FH", 0, 148500),
+(166267, "LG", "F2DV5S8S2E", 4, 209990);
